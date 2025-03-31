@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Minecraft",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "-XX:+AllowEnhancedClassRedefinition -javaagent:libs/hotswap-agent.jar",
+      "cwd": "${workspaceFolder}\\src",
+      "console": "integratedTerminal"
+    }
+  ],
+  // "compounds": [
+  //   {
+  //     "name": "Minecraft Dual Instance",
+  //     "configurations": ["Minecraft", "Minecraft"]
+  //   }
+  // ]
+}
